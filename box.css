@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #28282b;
+	overflow: hidden;
+	font-family: cursive;
+}
+
+.container
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+}
+
+.container h1{
+	margin-bottom: 10;
+	color: #28282b;
+	margin-top: 5px;
+	text-align: center;
+	border-bottom: 1px solid silver;
+}
+.box{
+
+	width: 400px;
+	height: 260px;
+	background-color: #efefef;
+	text-align: center;
+	padding: 1s0px 10px;
+	border-radius: 5%; 
+	box-shadow: 5px 5px 5px;
+
+}
+
+.box:hover{
+	
+	border: 1px solid cyan;
+}
+
+.text{
+
+	margin-bottom: 3px;
+	text-align: center;
+		
+
+
+
+	
+}
+
+.text input{
+
+	padding: 4px 10px;
+	width: 70%;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	border-radius: 5px;
+	color: #28282b;
+	font-family: cursive;
+	border: 1px solid #28282b;
+
+}
+
+
+
+
+.text input:hover{
+	border: 1px solid #0096ff;
+	box-shadow: 5px 5px 5px lightcyan;
+
+}
+
+
+.inner{
+	margin-top: 30px;
+	
+	
+}
+.lgn{
+	margin-top: 10px;
+
+}
+
+
+.lgn .b{
+	font-family: cursive;
+	background: #0096ff;
+	padding: 6px 32px;
+	border-radius: 25px;
+	cursor: pointer;
+	font-weight:;
+	color: white;
+	border:none ;
+}
+
+.lgn .b:hover{
+	background: #2691d9;
+	transform: translatey(1px);
+	border:1px solid #efefef ;
+	transition: 0.5s;
+	box-shadow: 5px 5px 5px lightcyan;
+
+}
+
+
+.forgot{
+
+	margin-top: -16px;
+}
+
+.forgot a{
+	color: black;
+	opacity: 0.9;
+	font-weight: 100;
+	text-decoration: none;
+
+}
+
+.forgot a:hover{
+	font-size: 13px;
+
+}
+
+.reg a{
+margin-left: 5px;
+color: blue;
+text-decoration: none;
+}
+
+.reg a:hover{
+	font-size: 17px;
+	text-decoration: underline;
+}
+
+.reg{
+	margin-top: -10px;
+}
+.reg span{
+	font-weight: 100;
+	opacity: 0.9;
+}
+
+
+
